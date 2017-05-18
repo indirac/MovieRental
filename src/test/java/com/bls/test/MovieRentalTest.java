@@ -24,7 +24,7 @@ public class MovieRentalTest extends TestCase {
 		Customer customer = new Customer("Indira");
 		Rental rental = new Rental(new RegularMovie("Pursuit of Happyness"), 7);
 		customer.addRental(rental);
-		assertEquals("Rental record for : Indira.....\n" + "\tPursuit of Happyness: 475.0\n" + "Amount owed is: 475.0\n"
+		assertEquals("Rental record for : Indira.....\n" + "\tPursuit of Happyness: 45.0\n" + "Amount owed is: 475.0\n"
 				+ "You have earned 1 frequent renter points", customer.statement());
 
 	}
