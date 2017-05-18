@@ -8,7 +8,7 @@ public class Customer {
 	private String name;
 
 	// CHANGES: Added type Rental to ArrayList to avoid raw type reference
-	private ArrayList<Rental> rentals = new ArrayList<>();
+	private ArrayList<Rental> rentals = new ArrayList<Rental>();
 
 	public Customer(String name) {
 		this.name = name;
