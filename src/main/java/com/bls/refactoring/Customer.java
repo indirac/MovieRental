@@ -2,7 +2,7 @@ package com.bls.refactoring;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
+import java.util.Date;
 public class Customer {
 
 	private String name;
