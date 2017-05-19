@@ -25,7 +25,7 @@ public class Customer {
 	public String statement() {
 
 		double totalAmount = 0;
-		int frequentRenterPoints = 0
+		int frequentRenterPoints = 0;
 
 		/*
 		 * CHANGES: Used StringBuilder instead of String because it is much
