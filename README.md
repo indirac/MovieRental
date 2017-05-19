@@ -1,1 +1,1 @@
-# Movie Rental
+# MovieRental
